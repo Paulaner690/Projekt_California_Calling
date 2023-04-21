@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+    font-family: "lora",Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%
+}
+
+h1{
+    @include headings;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+span{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $white;
+    color: $black;
+}
+
+h2{
+    @include headings;
+}
+
+h3{
+    font-size: 6.4rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+p{
+    font-family: "work",Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+}
+
+.btn{
+    font-family: "work",Arial, Helvetica, sans-serif;
+    color: $white;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid $white;
+    padding: 1.5rem 2.5rem;
+    width: 10rem;
+    margin-bottom: 5rem;
+    &:hover{
+        background-color: $white;
+        color: $black;
+        cursor: pointer;
+    }
+}
+
+.line{
+    width: 1px;
+    height: 200px;
+    background-color: $white;
+    margin-bottom: 8rem;
+}

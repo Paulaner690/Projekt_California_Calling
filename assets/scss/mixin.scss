@@ -1,0 +1,25 @@
+@mixin black-background{
+    color: $white;
+    background-color: $black;
+}
+
+@mixin headings{
+    font-size: 8.8rem;
+    font-weight: 600;
+    line-height: 7rem;
+    margin-bottom: 3rem;
+}
+
+@mixin header-article{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    h2{
+        width: 50%;
+    }
+    h4{
+        width: 80%;
+    }
+    p{
+        padding: 2rem 0;
+    }
+}
