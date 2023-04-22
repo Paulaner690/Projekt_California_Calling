@@ -38,7 +38,7 @@ h3 {
 
 h4 {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 p {
@@ -311,6 +311,15 @@ footer .footer-img {
   align-items: flex-end;
   padding-bottom: 5rem;
   gap: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 7rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
