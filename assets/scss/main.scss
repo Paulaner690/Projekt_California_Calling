@@ -201,13 +201,70 @@ footer{
     }
 }
 
-// --------MEDIA QIERIES NOCH NICHT FERTIG-------
+// --------MEDIA QUERIES TABLET---------
 @media only screen and (max-width: 768px){
     h2{
-        font-size: 7rem;
+        font-size: 5rem;
     }
-
-    h4{
-        font-size: 2.5rem;
+// --------------MAIN--------------------------
+    .stuck{
+        .img2 {
+            left: 1%;
+        }
+        .img4{
+            left: 5%;
+        }
+        .img5{
+            right: 9%;
+        }
+    }    
+    .golden-bear{
+        min-height: 165vh;
+        .header-article{
+            font-size: 2rem;
+            width: 105%;
+        }
+        .golden1{
+            width: 45rem;
+            top: 53rem;
+            left: 7%;
+        }
+        .golden2{
+            width: 24rem;
+            right: 14.5%;
+        }
+    }
+    .flower-bear{
+        height: 200vh;
+        .header-article{
+            font-size: 2rem;
+            width: 105%;
+        }
+        .california-circle{
+            width: 50rem;
+            right: -12rem;
+            top: -15rem;
+            z-index: -1;
+            animation: rotatecircle 10s linear infinite;
+        }
+        .flowerbear{
+            width: 33rem;
+            left: 9%;
+            top: 95rem;
+        }
+        .flowerbear2{
+            width: 40rem;
+            right: 6%;
+            top: 77rem;
+        }
+    }
+    // -----------------------FOOTER-----------------------
+    footer{
+        padding-left: 6rem;
+        .footer-img{
+            .footerImg{
+                width: 70%;
+            }
+        }    
     }
 }
