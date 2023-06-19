@@ -315,10 +315,62 @@ footer .footer-img {
 
 @media only screen and (max-width: 768px) {
   h2 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
-  h4 {
-    font-size: 2.5rem;
+  .stuck .img2 {
+    left: 1%;
+  }
+  .stuck .img4 {
+    left: 5%;
+  }
+  .stuck .img5 {
+    right: 9%;
+  }
+  .golden-bear {
+    min-height: 165vh;
+  }
+  .golden-bear .header-article {
+    font-size: 2rem;
+    width: 105%;
+  }
+  .golden-bear .golden1 {
+    width: 45rem;
+    top: 53rem;
+    left: 7%;
+  }
+  .golden-bear .golden2 {
+    width: 24rem;
+    right: 14.5%;
+  }
+  .flower-bear {
+    height: 200vh;
+  }
+  .flower-bear .header-article {
+    font-size: 2rem;
+    width: 105%;
+  }
+  .flower-bear .california-circle {
+    width: 50rem;
+    right: -12rem;
+    top: -15rem;
+    z-index: -1;
+    animation: rotatecircle 10s linear infinite;
+  }
+  .flower-bear .flowerbear {
+    width: 33rem;
+    left: 9%;
+    top: 95rem;
+  }
+  .flower-bear .flowerbear2 {
+    width: 40rem;
+    right: 6%;
+    top: 77rem;
+  }
+  footer {
+    padding-left: 6rem;
+  }
+  footer .footer-img .footerImg {
+    width: 70%;
   }
 }
 
